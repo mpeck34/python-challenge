@@ -1,14 +1,12 @@
 # import what we need
-
 import csv
 import os
 
 # create dict for incoming data
 election_dict = {}
 
-
 cwd = os.getcwd()
-election_data_path = os.path.join("python-challenge","PyPoll","Resources","election_data.csv")
+election_data_path = os.path.join("PyPoll","Resources","election_data.csv")
 
 counter = 0 
 with open(election_data_path, 'r') as election_data:
